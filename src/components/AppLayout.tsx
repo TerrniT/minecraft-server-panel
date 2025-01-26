@@ -1,4 +1,4 @@
-import { BellIcon, CpuIcon, GaugeIcon, HardDriveIcon, LayoutDashboardIcon, LayersIcon as PlayersIcon, ServerIcon, TerminalIcon, UsersIcon } from 'lucide-react';
+import { GaugeIcon, HardDriveIcon, LayoutDashboardIcon, ServerIcon, TerminalIcon, UsersIcon } from 'lucide-react';
 import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { cn } from '@/lib/utils';

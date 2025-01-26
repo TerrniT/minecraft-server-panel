@@ -7,14 +7,14 @@ import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { SendIcon } from 'lucide-react';
 import { useState, useEffect } from 'react';
-import { useToast } from '@/components/ui/use-toast';
+import { useToast } from '@/hooks/use-toast';
 
 export function Console() {
   const [command, setCommand] = useState('');
   const [logs, setLogs] = useState<ConsoleLog[]>([]);
   const { toast } = useToast();
 
-  const { isConnected, emit, on } = useSocket({
+  const { isConnected, emit, on, off } = useSocket({
     uri: SOCKET_URL,
     onConnect: () => {
       toast({
