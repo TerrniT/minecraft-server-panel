@@ -45,7 +45,7 @@ export function AppLayout() {
               key={item.id}
               variant={location.pathname === item.path ? 'secondary' : 'ghost'}
               className={cn(
-                'w-full justify-start gap-2 text-foreground hover:text-foreground bg-secondary',
+                'w-full justify-start gap-2 text-foreground hover:text-foreground',
                 location.pathname === item.path ? 'bg-secondary hover:bg-secondary/10 text-secondary-foreground' : 'hover:bg-secondary/50'
               )}
               onClick={() => navigate(item.path)}

@@ -18,16 +18,16 @@ export function Layout({ children, title }: LayoutProps) {
       <header className="border-b bg-card p-4">
         <div className="flex items-center justify-between">
           <h2 className="text-2xl font-bold">{title}</h2>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 justify-end">
+            <div className="flex items-center gap-2 w-fit">
+              <div className="h-2 w-2 rounded-full bg-green-500" />
+              <span className="text-sm font-medium">{t('common.serverOnline')}</span>
+            </div>
             <LanguageToggle />
             <ThemeToggle />
             <Button variant="outline" size="icon">
               <BellIcon className="h-4 w-4" />
             </Button>
-            <div className="flex items-center gap-2">
-              <div className="h-2 w-2 rounded-full bg-green-500" />
-              <span className="text-sm font-medium">{t('common.serverOnline')}</span>
-            </div>
           </div>
         </div>
       </header>

@@ -37,13 +37,13 @@ export function Backups() {
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <Card className="flex-1 mr-6">
+        <Card className="flex-1 mr-6 min-w-[80%]">
           <CardHeader>
             <CardTitle className="text-sm font-medium">Storage Usage</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="space-y-2">
-              <div className="flex justify-between text-sm">
+              <div className="flex justify-between text-sm *:w-fit">
                 <span className="text-muted-foreground">7.2 GB used</span>
                 <span className="text-muted-foreground">20 GB total</span>
               </div>
