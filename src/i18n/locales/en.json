@@ -1,0 +1,41 @@
+{
+  "common": {
+    "dashboard": "Dashboard",
+    "players": "Players",
+    "console": "Console",
+    "performance": "Performance",
+    "backups": "Backups",
+    "serverOnline": "Server Online",
+    "serverOffline": "Server Offline"
+  },
+  "dashboard": {
+    "playersOnline": "Players Online",
+    "tps": "TPS",
+    "cpuUsage": "CPU Usage",
+    "memoryUsage": "Memory Usage",
+    "recentLogs": "Recent Logs"
+  },
+  "backups": {
+    "storageUsage": "Storage Usage",
+    "createBackup": "Create Backup",
+    "backupHistory": "Backup History",
+    "name": "Name",
+    "size": "Size",
+    "date": "Date",
+    "type": "Type",
+    "actions": "Actions",
+    "used": "used",
+    "total": "total",
+    "modal": {
+      "title": "Create New Backup",
+      "description": "Create a new backup of your Minecraft server. This process may take several minutes depending on the world size.",
+      "backupName": "Backup Name",
+      "backupNamePlaceholder": "Enter backup name (optional)",
+      "includePlugins": "Include Plugins",
+      "includeConfigs": "Include Config Files",
+      "cancel": "Cancel",
+      "create": "Create Backup",
+      "creating": "Creating..."
+    }
+  }
+}
